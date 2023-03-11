@@ -1,0 +1,22 @@
+{
+  "name": "unimark",
+  "version": "1.0.0",
+  "description": "\"# UniMark\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TshepoShomang/UniMark.git"
+  },
+  "author": "Tshepo and Omphulusa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TshepoShomang/UniMark/issues"
+  },
+  "homepage": "https://github.com/TshepoShomang/UniMark#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
