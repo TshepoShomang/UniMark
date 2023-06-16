@@ -6,7 +6,7 @@ router.get('/', (req, res, next) => {
   res.render('index');
 });
 
-router.get('/product', (req, res, next) => {
+/*router.get('/product', (req, res, next) => {
   res.render('product');
 });
 
@@ -16,6 +16,6 @@ router.get('/add', (req, res, next) => {
 
 router.get('/cheakout', (req, res, next) => {
   res.render('cheakout');
-});
+});*/
 
 module.exports = router;
