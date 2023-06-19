@@ -1,1 +1,26 @@
-body hello world
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Uni Mark
+    // font awesome
+    script(src='https://kit.fontawesome.com/3e2a1eade5.js', crossorigin='anonymous')
+    // Bootstrap
+    // <link rel="stylesheet" href="css/bootstrap.min.css">
+    // custom css
+    link(rel='stylesheet' href='./css/style.css')
+  body
+    include ./includes/header.jade
+    .page-wrapper
+      // hero
+      header.hero
+        .banner
+          h1.banner-title  Choose store
+          button.banner-btn shop now
+      // end of hero
+      // display
+      include ./includes/about.jade
+      // end of display
+
+    include ./includes/footer.jade

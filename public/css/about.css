@@ -1,0 +1,95 @@
+.container{
+    width: 88%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+
+}
+.border{
+    padding: 15px;
+    border: var(--Primary) solid 2px;
+    color: var(--primaryColor);
+    margin-top: 10px;
+
+}
+.sub{
+    margin-top: 6px;
+}
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+
+}
+
+aside#sidebar .Sign input,aside#sidebar .Sign textarea{
+    width: 90%;
+    padding: 5px;
+
+}
+
+#main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+section{
+    background-color: #ffffff;
+}
+
+ul#Story{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc 1px solid;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+.page-title{
+    text-align: center;
+    font-weight: bold;
+    color: var(--Primary);
+    font-size: 40px;
+}
+
+#box{
+    padding: 40px;
+}
+
+.main_title{
+    margin-bottom: 3px;
+    font-weight: bold;
+    border-bottom: solid 3px var(--Primary);
+}
+
+.sub_paragraph{
+    margin-top: 25px;
+}
+
+.numbers{
+    margin-top: 10px;
+}
+.instruction_heading{
+    color: var(--Primary);
+}
+
+
+@media(max-width: 768px){
+    article#main-col, aside#sidebar{
+        float: none;
+        /*text-align: center;*/
+        width: 100%;
+    }
+} 
